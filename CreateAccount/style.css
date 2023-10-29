@@ -1,0 +1,523 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--Background, #2B2B2B);
+
+}
+
+
+.create-account {
+    display: flex;
+    flex-direction: column;
+    height: 1125px;
+    align-items: flex-start;
+    position: relative;
+    background-color: var(--background);
+  }
+  
+  .create-account .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--background);
+  }
+  
+  .create-account .nav-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .logo {
+    position: relative;
+    width: 243.41px;
+    height: 32px;
+  }
+  
+  .create-account .storefront {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 0;
+  }
+  
+  .create-account .NFT-marketplace {
+    position: absolute;
+    width: 199px;
+    height: 20px;
+    top: 9px;
+    left: 44px;
+  }
+  
+  .create-account .nav-nav-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .div {
+    display: inline-flex;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .create-account .button {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+  }
+
+  
+  
+  .create-account .sign-up {
+    display: flex;
+    height: 60px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--Call-to-Action, #A259FF);
+    
+  }
+  
+  .create-account .user {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    
+  }
+  
+  .create-account .div-2 {
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--background);
+    display: flex;
+    position: relative;
+  }
+  
+  .create-account .image-placeholder {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    object-fit: cover;
+  }
+  
+  .create-account .create-account-form {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 100px 0px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+  }
+  
+  .create-account .headline-subhead {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .headline-subhead-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .headline {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .text-wrapper {
+    color: var(--White, #FFF);
+
+    /* H2 - Work Sans */
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 56.1px */
+    text-transform: capitalize;
+  }
+  
+  .create-account .subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .welcome-enter-your {
+    color: var(--White, #FFF);
+
+    /* Body Text- Work Sans */
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+  }
+  
+  .create-account .form {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .typeforms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .type-form {
+    display: flex;
+height: 46px;
+padding: 16px 20px;
+align-items: center;
+gap: 12px;
+align-self: stretch;
+border-radius: 20px;
+border: 1px solid var(--caption-label-text, #858584);
+background: var(--Text, #FFF);
+  }
+  
+  .create-account .img {
+    position: relative;
+    color: aqua;
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+  }
+  
+  .create-account .username {
+    color: var(--Background, #ffffff);
+
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    flex: 1 0 0;
+  }
+  
+  .create-account .button-2 {
+    display: flex;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--Call-to-Action, #A259FF);
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+  }
+  
+  .create-account .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 195px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--background-secondary);
+  }
+  
+  .create-account .footer-info {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -48.71px;
+    margin-right: -48.71px;
+  }
+  
+  .create-account .NFT-marketplace-info {
+    display: flex;
+    flex-direction: column;
+    width: 327.41px;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0px 84px 0px 0px;
+    position: relative;
+  }
+  
+  .create-account .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .p {
+    position: relative;
+    width: 238px;
+    margin-top: -1px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    font-style: var(--base-body-work-sans-font-style);
+  }
+  
+  .create-account .community-info {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .text-wrapper-2 {
+    position: relative;
+    width: 238px;
+    height: 18px;
+    margin-top: -1px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-work-sans-font-style);
+  }
+  
+  .create-account .icons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .img-2 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .create-account .explore {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+  }
+  
+  .create-account .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h5-space-mono-font-family);
+    font-weight: var(--h5-space-mono-font-weight);
+    color: #ffffff;
+    font-size: var(--h5-space-mono-font-size);
+    letter-spacing: var(--h5-space-mono-letter-spacing);
+    line-height: var(--h5-space-mono-line-height);
+    white-space: nowrap;
+    font-style: var(--h5-space-mono-font-style);
+  }
+  
+  .create-account .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-work-sans-font-style);
+  }
+  
+  .create-account .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-work-sans-font-style);
+  }
+  
+  .create-account .subscribe {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .create-account .get-exclusive {
+    position: relative;
+    width: 330px;
+    margin-top: -1px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    font-style: var(--base-body-work-sans-font-style);
+  }
+  
+  .create-account .subscribe-form {
+    display: flex;
+    width: 420px;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--Text, #FFF);
+  }
+  
+  /* .create-account .enter-your-email {
+    display: flex;
+    width: 420px;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--Text, #FFF);
+  } */
+  
+  .create-account .button-3 {
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 0px 50px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -16px;
+    margin-bottom: -16px;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .create-account .frame {
+    display: flex;
+    flex-direction: column;
+    width: 1049.41px;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -79.71px;
+    margin-right: -79.71px;
+  }
+  
+  .create-account .divider {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    margin-top: -1px;
+    object-fit: cover;
+  }
+  
+  .create-account .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--caption-work-sans-font-family);
+    font-weight: var(--caption-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--caption-work-sans-font-size);
+    letter-spacing: var(--caption-work-sans-letter-spacing);
+    line-height: var(--caption-work-sans-line-height);
+    font-style: var(--caption-work-sans-font-style);
+  }
+  
